@@ -84,3 +84,6 @@ resource "azurerm_virtual_machine" "vmblock" {
     environment = "staging"
   }
 }
+tags = {
+    environment = "staging"
+  }
