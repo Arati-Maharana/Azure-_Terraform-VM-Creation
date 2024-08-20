@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rgblock" {
   location = "west us"
 }
 
+resource "azurerm_resource_group" "anilblock" {
+  name= "anilrg"
+  location = "west us"
+}
+
 #Virtual Network Creation
 resource "azurerm_virtual_network" "vnetblock" {
     name="arativnet"
